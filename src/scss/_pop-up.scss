@@ -59,6 +59,11 @@ form .button{
 }
 .visible{
     visibility: visible;
+    animation: popupAnimation 0.7s;
+}
+@keyframes popupAnimation{
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 

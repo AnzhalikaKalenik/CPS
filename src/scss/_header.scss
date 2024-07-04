@@ -130,6 +130,11 @@ body{
 }
 .open{
     display: flex;
+    animation: burgerAnimation 0.7s;
+}
+@keyframes burgerAnimation{
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 
